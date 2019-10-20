@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL", "src\WindupButton.GraphQL\WindupButton.GraphQL.csproj", "{8EA26768-738D-4246-9361-1BF3B5C2971A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.EntityFrameworkCore", "src\WindupButton.GraphQL.EntityFrameworkCore\WindupButton.GraphQL.EntityFrameworkCore.csproj", "{C18ADD0D-7A0C-484B-8122-432A138830E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.EntityFrameworkCore.Tests", "src\WindupButton.GraphQL.EntityFrameworkCore.Tests\WindupButton.GraphQL.EntityFrameworkCore.Tests.csproj", "{637B15E2-F328-4C9E-B742-37378DF656CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.InMemory.Tests", "src\WindupButton.GraphQL.InMemory.Tests\WindupButton.GraphQL.InMemory.Tests.csproj", "{32E5563F-5511-402E-8185-1456F0C30019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.InMemory", "src\WindupButton.GraphQL.InMemory\WindupButton.GraphQL.InMemory.csproj", "{63D89C1D-8461-4EC6-97B2-1FDAABA19B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.Roscoe.Postgres", "src\WindupButton.GraphQL.Roscoe.Postgres\WindupButton.GraphQL.Roscoe.Postgres.csproj", "{6800588C-95DE-4757-9025-F98A921A8414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.Roscoe.Postgres.Tests", "src\WindupButton.GraphQL.Roscoe.Postgres.Tests\WindupButton.GraphQL.Roscoe.Postgres.Tests.csproj", "{5CADF80A-E067-4B28-A549-A26A6C6CE3C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.Roscoe.SqlServer", "src\WindupButton.GraphQL.Roscoe.SqlServer\WindupButton.GraphQL.Roscoe.SqlServer.csproj", "{DF0906C8-0311-4226-A1F5-92DFF50381EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.Roscoe.SqlServer.Tests", "src\WindupButton.GraphQL.Roscoe.SqlServer.Tests\WindupButton.GraphQL.Roscoe.SqlServer.Tests.csproj", "{6F8B8B8B-44C1-4DD2-8F53-E537971BB222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindupButton.GraphQL.Tests", "src\WindupButton.GraphQL.Tests\WindupButton.GraphQL.Tests.csproj", "{E79DB3D2-B742-420C-B845-3E950A2771C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA26768-738D-4246-9361-1BF3B5C2971A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA26768-738D-4246-9361-1BF3B5C2971A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA26768-738D-4246-9361-1BF3B5C2971A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA26768-738D-4246-9361-1BF3B5C2971A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18ADD0D-7A0C-484B-8122-432A138830E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18ADD0D-7A0C-484B-8122-432A138830E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18ADD0D-7A0C-484B-8122-432A138830E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18ADD0D-7A0C-484B-8122-432A138830E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637B15E2-F328-4C9E-B742-37378DF656CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637B15E2-F328-4C9E-B742-37378DF656CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637B15E2-F328-4C9E-B742-37378DF656CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637B15E2-F328-4C9E-B742-37378DF656CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E5563F-5511-402E-8185-1456F0C30019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E5563F-5511-402E-8185-1456F0C30019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E5563F-5511-402E-8185-1456F0C30019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E5563F-5511-402E-8185-1456F0C30019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D89C1D-8461-4EC6-97B2-1FDAABA19B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D89C1D-8461-4EC6-97B2-1FDAABA19B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D89C1D-8461-4EC6-97B2-1FDAABA19B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D89C1D-8461-4EC6-97B2-1FDAABA19B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6800588C-95DE-4757-9025-F98A921A8414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6800588C-95DE-4757-9025-F98A921A8414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6800588C-95DE-4757-9025-F98A921A8414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6800588C-95DE-4757-9025-F98A921A8414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CADF80A-E067-4B28-A549-A26A6C6CE3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CADF80A-E067-4B28-A549-A26A6C6CE3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CADF80A-E067-4B28-A549-A26A6C6CE3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CADF80A-E067-4B28-A549-A26A6C6CE3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0906C8-0311-4226-A1F5-92DFF50381EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0906C8-0311-4226-A1F5-92DFF50381EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0906C8-0311-4226-A1F5-92DFF50381EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0906C8-0311-4226-A1F5-92DFF50381EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8B8B8B-44C1-4DD2-8F53-E537971BB222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8B8B8B-44C1-4DD2-8F53-E537971BB222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8B8B8B-44C1-4DD2-8F53-E537971BB222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8B8B8B-44C1-4DD2-8F53-E537971BB222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79DB3D2-B742-420C-B845-3E950A2771C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79DB3D2-B742-420C-B845-3E950A2771C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79DB3D2-B742-420C-B845-3E950A2771C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79DB3D2-B742-420C-B845-3E950A2771C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8451080-33D5-442F-9E6C-7AEE325DBA20}
+	EndGlobalSection
+EndGlobal

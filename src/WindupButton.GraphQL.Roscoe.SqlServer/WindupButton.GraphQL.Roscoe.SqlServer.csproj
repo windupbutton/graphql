@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version Condition="'$(BUILD_BUILDNUMBER)' == ''">0.1.0</Version>
+    <Version Condition="'$(BUILD_BUILDNUMBER)' != ''">$(BUILD_BUILDNUMBER)</Version>
+    <Authors>Wesley Harris</Authors>
+    <Company>Windup Button</Company>
+    <Copyright>Copyright © 2019  Windup Button</Copyright>
+    <LangVersion>latest</LangVersion>
+
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+
+    <Description>A flexible, extensible GraphQL backend for Sql Server via Roscoe</Description>
+
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <PackageProjectUrl>https://github.com/windupbutton/graphql</PackageProjectUrl>
+
+    <RepositoryUrl>https://github.com/windupbutton/graphql</RepositoryUrl>
+
+    <PackageTags>GraphQL,Roscoe,SQL Server</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\WindupButton.GraphQL.licenseheader" Link="WindupButton.GraphQL.licenseheader" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindupButton.Roscoe.SqlServer" Version="0.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WindupButton.GraphQL\WindupButton.GraphQL.csproj" />
+  </ItemGroup>
+
+</Project>
